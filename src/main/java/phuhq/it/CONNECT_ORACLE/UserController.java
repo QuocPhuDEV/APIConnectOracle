@@ -20,6 +20,7 @@ public class UserController {
 	UserController(UserRepository repository) {
 		this.repository = repository;
 	}
+	
 
 	// Get all user in table
 	@GetMapping
