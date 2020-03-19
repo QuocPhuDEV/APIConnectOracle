@@ -1,0 +1,7 @@
+---
+applications:
+- name: CONNECT_ORACLE
+  memory: 1024M
+  buildpack: java_buildpack
+  routes:
+  - route: CONNECTORACLE.cfapps.io
